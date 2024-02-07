@@ -18,7 +18,8 @@ function MovieCard({movie}) {
         <div className="movieCard">
             <img src={`${URL_IMAGE + movie.poster_path}`} alt="" />
             <h2>{movie.title}</h2>
-            <h3>{movie.release_date}</h3>
+            <h3>Release date:</h3>
+            <h4>{movie.release_date}</h4>
         </div>
     )
 }
